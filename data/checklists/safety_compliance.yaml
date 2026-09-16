@@ -1,0 +1,52 @@
+# Safety & compliance walk. Right lens for: a scheduled safety audit, a
+# post-incident or post-near-miss review, an insurance/OSHA-readiness check.
+# This is the only checklist where a single finding can independently
+# justify a "critical" report -- see severity.py.
+key: safety_compliance
+name: "Safety & Compliance Walk"
+description: >
+  A floor walk focused on the things that cause injuries and citations:
+  PPE compliance, emergency egress, machine guarding, ergonomics, and
+  housekeeping conditions that create slip/trip/fall risk. Unlike the other
+  two lenses, findings here are treated as independently serious rather than
+  only escalating when they recur.
+recommend_when:
+  - "safety"
+  - "compliance"
+  - "near miss"
+  - "near-miss"
+  - "OSHA"
+  - "incident"
+  - "PPE"
+  - "injury"
+items:
+  - id: safety_ppe
+    category: "PPE Compliance"
+    prompt: "Personnel working without required PPE -- safety glasses, hearing protection, gloves, hard hats, high-visibility vests -- for the task or zone"
+    default_severity: high
+    keywords: ["no ppe", "without ppe", "no safety glasses", "without safety glasses", "no hearing protection", "no gloves", "no hard hat", "without a hard hat", "not wearing", "wasn't wearing", "weren't wearing"]
+  - id: safety_egress
+    category: "Emergency Egress / Fire Safety"
+    prompt: "Blocked or obstructed emergency exit, fire extinguisher, or fire lane; expired extinguisher inspection tag"
+    default_severity: critical
+    keywords: ["blocked exit", "blocked egress", "obstructed exit", "extinguisher expired", "blocking the fire lane", "exit blocked"]
+  - id: safety_machine_guarding
+    category: "Machine Guarding"
+    prompt: "Missing or bypassed machine guard, exposed pinch point, or exposed moving parts at operator height"
+    default_severity: critical
+    keywords: ["unguarded", "no guard", "missing guard", "guard removed", "pinch point", "exposed moving parts", "guard bypassed"]
+  - id: safety_ergonomics
+    category: "Ergonomics"
+    prompt: "Repeated awkward lifting, reaching, or bending that a simple fix (lift assist, adjustable table, staging change) could resolve"
+    default_severity: low
+    keywords: ["awkward lift", "reaching overhead repeatedly", "bending repeatedly", "no lift assist", "heavy manual lift"]
+  - id: safety_housekeeping
+    category: "Housekeeping / Slip-Trip-Fall"
+    prompt: "Spills, loose cabling, uneven flooring, or debris in a walkway creating a slip or trip hazard"
+    default_severity: medium
+    keywords: ["trip hazard", "slip hazard", "spill", "frayed cord", "exposed wiring", "cable across walkway", "uneven flooring"]
+  - id: safety_documentation
+    category: "Documentation & Signage"
+    prompt: "Missing or outdated required signage (chemical labeling, evacuation map, machine lockout instructions)"
+    default_severity: low
+    keywords: ["missing signage", "outdated map", "looks outdated", "no lockout instructions", "unlabeled chemical", "expired posting"]

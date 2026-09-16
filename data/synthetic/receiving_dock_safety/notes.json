@@ -1,0 +1,118 @@
+[
+  {
+    "note_id": "C01",
+    "kind": "voice",
+    "timestamp": "2026-09-12T13:02:00",
+    "fixture_transcript": "Right where the roller conveyor meets the sorter there's an exposed pinch point, no guard around it at all."
+  },
+  {
+    "note_id": "C02",
+    "kind": "voice",
+    "timestamp": "2026-09-12T13:07:00",
+    "fixture_transcript": "Checked again on the other side of the dock, same conveyor line further down, another spot where the guard removed -- looks like it was taken off for maintenance and never put back."
+  },
+  {
+    "note_id": "C03",
+    "kind": "photo",
+    "timestamp": "2026-09-12T13:10:00",
+    "image_path": "photos/c03_pinch_point.png",
+    "fixture_caption": {
+      "scene_description": "Close-up of the conveyor transfer point showing the guard panel missing, chain and rollers exposed at hand height.",
+      "expected_checklist_item": "safety_machine_guarding"
+    }
+  },
+  {
+    "note_id": "C04",
+    "kind": "voice",
+    "timestamp": "2026-09-12T13:15:00",
+    "fixture_transcript": "Two pallets are stacked directly in front of the east-wall emergency exit door, essentially an obstructed exit that wouldn't fully open if someone needed it."
+  },
+  {
+    "note_id": "C05",
+    "kind": "voice",
+    "timestamp": "2026-09-12T13:19:00",
+    "fixture_transcript": "Fire extinguisher near the dock office has an inspection tag showing the extinguisher expired six months ago."
+  },
+  {
+    "note_id": "C06",
+    "kind": "photo",
+    "timestamp": "2026-09-12T13:22:00",
+    "image_path": "photos/c06_exit_blocked.png",
+    "fixture_caption": {
+      "scene_description": "Emergency exit signage at the east wall dock door, view partially obstructed by stacked pallets in the foreground.",
+      "expected_checklist_item": "safety_egress"
+    }
+  },
+  {
+    "note_id": "C07",
+    "kind": "voice",
+    "timestamp": "2026-09-12T13:27:00",
+    "fixture_transcript": "A couple of the dock workers unloading the trailer this morning had no gloves on despite the posted PPE requirement for that zone."
+  },
+  {
+    "note_id": "C08",
+    "kind": "voice",
+    "timestamp": "2026-09-12T13:31:00",
+    "fixture_transcript": "Saw at least one person on the dock without safety glasses near the strapping area, that's a required PPE zone too."
+  },
+  {
+    "note_id": "C09",
+    "kind": "voice",
+    "timestamp": "2026-09-12T13:35:00",
+    "fixture_transcript": "Forklift operator wasn't wearing a hard hat while under the mezzanine overhang, that's marked as a hard-hat zone."
+  },
+  {
+    "note_id": "C10",
+    "kind": "voice",
+    "timestamp": "2026-09-12T13:40:00",
+    "fixture_transcript": "Noticed a frayed cord running across the main walkway near the scale, definitely a trip hazard and an electrical one."
+  },
+  {
+    "note_id": "C11",
+    "kind": "voice",
+    "timestamp": "2026-09-12T13:44:00",
+    "fixture_transcript": "There's a spill near the dock plate, looked like hydraulic fluid, hasn't been cleaned up or marked off."
+  },
+  {
+    "note_id": "C12",
+    "kind": "voice",
+    "timestamp": "2026-09-12T13:48:00",
+    "fixture_transcript": "Cabling for the label printer runs straight across the walkway by receiving desk 2, another trip hazard."
+  },
+  {
+    "note_id": "C13",
+    "kind": "voice",
+    "timestamp": "2026-09-12T13:53:00",
+    "fixture_transcript": "Watched someone repeatedly doing an awkward lift straight from the trailer floor to a pallet, no lift table staged there."
+  },
+  {
+    "note_id": "C14",
+    "kind": "voice",
+    "timestamp": "2026-09-12T13:57:00",
+    "fixture_transcript": "No lift assist available anywhere near the dock for the heavier cases, seems like an ergonomics gap."
+  },
+  {
+    "note_id": "C15",
+    "kind": "voice",
+    "timestamp": "2026-09-12T14:02:00",
+    "fixture_transcript": "Evacuation map posted near the office door looks outdated, references a layout that doesn't match the current dock configuration."
+  },
+  {
+    "note_id": "C16",
+    "kind": "voice",
+    "timestamp": "2026-09-12T14:06:00",
+    "fixture_transcript": "A couple of chemical containers near the wash station don't have current labels on them, an unlabeled chemical situation."
+  },
+  {
+    "note_id": "C17",
+    "kind": "voice",
+    "timestamp": "2026-09-12T14:10:00",
+    "fixture_transcript": "Talked to the dock lead about last week's incident report, they said it involved a forklift and that same conveyor transfer area, consistent with what we're seeing here."
+  },
+  {
+    "note_id": "C18",
+    "kind": "voice",
+    "timestamp": "2026-09-12T14:14:00",
+    "fixture_transcript": "Rest of the dock looked reasonably organized, no other issues to flag beyond what's already noted."
+  }
+]

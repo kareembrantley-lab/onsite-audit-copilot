@@ -1,0 +1,47 @@
+# Theory of Constraints "find the constraint" walk, following TOC's five
+# focusing steps. Right lens for: a throughput or backlog question -- "why
+# is this line falling behind," "where's the bottleneck before peak season."
+# Wrong lens for a routine organization check or a safety follow-up.
+key: toc_constraint_walk
+name: "Theory of Constraints -- Find the Constraint"
+description: >
+  A walk-the-line audit built around TOC's five focusing steps: identify the
+  constraint, exploit it, subordinate everything else to it, elevate it, and
+  go back to step one once it moves. Looks for queue buildup, idle stations,
+  overproduction ahead of the bottleneck, and constraint downtime that isn't
+  being protected.
+recommend_when:
+  - "bottleneck"
+  - "throughput"
+  - "constraint"
+  - "backlog"
+  - "falling behind"
+  - "before peak"
+  - "line is slow"
+  - "WIP building up"
+items:
+  - id: toc_identify_constraint
+    category: "Identify the Constraint"
+    prompt: "Visible queue or WIP buildup piling up in front of one station while other stations wait or run ahead"
+    default_severity: high
+    keywords: ["queue", "backlog", "piled up", "piling up", "wip building up", "build-up", "waiting on", "waiting for", "bottleneck"]
+  - id: toc_exploit_constraint
+    category: "Exploit the Constraint"
+    prompt: "The busiest/slowest station sitting idle for a non-value-add reason -- changeover, break, waiting on a part -- while it is the pace-setter for the whole line"
+    default_severity: high
+    keywords: ["constraint idle", "changeover", "waiting on a part", "down for", "stopped for", "non-value-add at the"]
+  - id: toc_subordinate
+    category: "Subordinate Everything Else"
+    prompt: "An upstream station producing faster than the constraint can consume, building excess WIP that doesn't help overall output"
+    default_severity: medium
+    keywords: ["ahead of the constraint", "overproducing", "running ahead", "excess wip upstream", "building extra inventory"]
+  - id: toc_elevate
+    category: "Elevate the Constraint"
+    prompt: "A visible capacity-adding opportunity at the constraint -- a second machine, an added shift, cross-training -- that hasn't been acted on"
+    default_severity: medium
+    keywords: ["could add a second", "adding a second", "add a second", "extra shift would help", "additional shift would", "cross-train", "capacity opportunity", "outsource this step"]
+  - id: toc_repeat
+    category: "Prevent Inertia / Constraint Has Moved"
+    prompt: "Signs the constraint has already shifted to a different station since the last review, but the team is still managing to the old one"
+    default_severity: medium
+    keywords: ["constraint moved", "used to be the bottleneck", "not the slow point anymore", "different station is slow now"]

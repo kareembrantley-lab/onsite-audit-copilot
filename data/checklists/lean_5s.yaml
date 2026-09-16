@@ -1,0 +1,49 @@
+# Lean 5S workplace-organization audit.
+# Right lens for: routine floor walks checking whether an existing 5S
+# standard is holding, workplace-organization reviews, visual-management
+# audits. Wrong lens for a bottleneck/throughput question or a safety
+# incident follow-up -- see toc_constraint_walk.yaml and
+# safety_compliance.yaml for those.
+key: lean_5s
+name: "Lean 5S Audit"
+description: >
+  Workplace organization and standardization audit using the 5S framework
+  (Sort, Set in Order, Shine, Standardize, Sustain). Looks for clutter,
+  missing labels/shadow boards, inconsistent layout versus the documented
+  standard, and whether the standard is actually being sustained day to day
+  rather than reset just before an audit.
+recommend_when:
+  - "5S"
+  - "workplace organization"
+  - "shadow board"
+  - "visual management"
+  - "standard work"
+  - "housekeeping walk"
+  - "clutter"
+  - "labeling"
+items:
+  - id: 5s_sort
+    category: "Sort (Seiri)"
+    prompt: "Unnecessary items, obsolete tooling, or unused equipment left in the active work area"
+    default_severity: medium
+    keywords: ["clutter", "unused", "unnecessary", "junk", "obsolete", "not needed", "broken and unlabeled"]
+  - id: 5s_set_in_order
+    category: "Set in Order (Seiton)"
+    prompt: "Tools, parts, or materials without a designated, labeled location (no shadow board, no bin label, inconsistent placement)"
+    default_severity: medium
+    keywords: ["no shadow board", "unlabeled bin", "no designated spot", "misplaced", "wrong location", "not in its spot"]
+  - id: 5s_shine
+    category: "Shine (Seiso)"
+    prompt: "Dirt, spills, debris, or equipment in visibly poor condition that hasn't been cleaned per a standard"
+    default_severity: low
+    keywords: ["dirty", "grime", "debris", "spill not cleaned", "dust buildup", "residue"]
+  - id: 5s_standardize
+    category: "Standardize (Seiketsu)"
+    prompt: "Two work areas doing the same job laid out differently, or a documented standard that doesn't match what's actually on the floor"
+    default_severity: medium
+    keywords: ["inconsistent layout", "doesn't match the standard", "doesn't match what's actually", "different from station", "laid out differently", "set up differently", "no posted standard", "outdated standard sheet", "dated over a year", "standard sheet"]
+  - id: 5s_sustain
+    category: "Sustain (Shitsuke)"
+    prompt: "Evidence the standard was reset just before the audit, or that self-audits/checklists aren't actually being used day to day"
+    default_severity: low
+    keywords: ["only clean for the audit", "checklist not filled out", "last audit dated", "no daily check", "self-audit skipped", "right before a scheduled audit", "only completed right before", "has gaps", "no entry", "gaps in the log"]

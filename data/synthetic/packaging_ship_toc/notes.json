@@ -1,0 +1,110 @@
+[
+  {
+    "note_id": "B01",
+    "kind": "voice",
+    "timestamp": "2026-09-10T07:15:00",
+    "fixture_transcript": "There's a serious backlog in front of the shrink-wrap station, totes are piled up three deep waiting for it to catch up."
+  },
+  {
+    "note_id": "B02",
+    "kind": "voice",
+    "timestamp": "2026-09-10T07:20:00",
+    "fixture_transcript": "Same thing an hour later, still a queue building up in front of shrink-wrap, hasn't cleared since this morning."
+  },
+  {
+    "note_id": "B03",
+    "kind": "photo",
+    "timestamp": "2026-09-10T07:24:00",
+    "image_path": "photos/b03_shrinkwrap_queue.png",
+    "fixture_caption": {
+      "scene_description": "Pallets of totes queued up directly in front of the shrink-wrap machine, stacked higher than the machine itself.",
+      "expected_checklist_item": "toc_identify_constraint"
+    }
+  },
+  {
+    "note_id": "B04",
+    "kind": "voice",
+    "timestamp": "2026-09-10T07:30:00",
+    "fixture_transcript": "Shrink-wrap machine went down for a changeover for almost twenty minutes right in the middle of the backlog, operators said they didn't have the next roll staged ahead of time."
+  },
+  {
+    "note_id": "B05",
+    "kind": "voice",
+    "timestamp": "2026-09-10T07:36:00",
+    "fixture_transcript": "Another shrink-wrap stoppage, waiting on a part -- a replacement roll of film that wasn't staged nearby, probably ten minutes lost."
+  },
+  {
+    "note_id": "B06",
+    "kind": "voice",
+    "timestamp": "2026-09-10T07:42:00",
+    "fixture_transcript": "Meanwhile the labeling station upstream is running ahead, building a stack of labeled totes that shrink-wrap can't keep up with, so they're just sitting there taking up floor space."
+  },
+  {
+    "note_id": "B07",
+    "kind": "voice",
+    "timestamp": "2026-09-10T07:47:00",
+    "fixture_transcript": "Same thing at the case-pack step before that, running well ahead, building excess wip upstream that's just going to sit until shrink-wrap clears."
+  },
+  {
+    "note_id": "B08",
+    "kind": "voice",
+    "timestamp": "2026-09-10T07:53:00",
+    "fixture_transcript": "Supervisor mentioned they've talked about adding a second shrink-wrap machine before the holiday peak but it hasn't been approved yet."
+  },
+  {
+    "note_id": "B09",
+    "kind": "voice",
+    "timestamp": "2026-09-10T07:58:00",
+    "fixture_transcript": "One of the leads floated wanting to cross-train a picker to help run a second shrink-wrap head when volume spikes, but nobody's been trained yet."
+  },
+  {
+    "note_id": "B10",
+    "kind": "voice",
+    "timestamp": "2026-09-10T08:04:00",
+    "fixture_transcript": "Talked to the shift lead, they said last month the real slow point was actually the case-erector -- used to be the bottleneck there -- but that's caught up now and shrink-wrap is the one falling behind."
+  },
+  {
+    "note_id": "B11",
+    "kind": "voice",
+    "timestamp": "2026-09-10T08:09:00",
+    "fixture_transcript": "Walked the receiving end of this line just to check, no backlog there, that part's running fine."
+  },
+  {
+    "note_id": "B12",
+    "kind": "photo",
+    "timestamp": "2026-09-10T08:13:00",
+    "image_path": "photos/b12_empty_conveyor.png",
+    "fixture_caption": {
+      "scene_description": "Empty conveyor section between the label station and shrink-wrap, no product moving through, consistent with operators' reports of waiting on shrink-wrap.",
+      "expected_checklist_item": "toc_identify_constraint"
+    }
+  },
+  {
+    "note_id": "B13",
+    "kind": "voice",
+    "timestamp": "2026-09-10T08:18:00",
+    "fixture_transcript": "No safety issues to report on this walk, just the flow issue at shrink-wrap."
+  },
+  {
+    "note_id": "B14",
+    "kind": "voice",
+    "timestamp": "2026-09-10T08:22:00",
+    "fixture_transcript": "Quick note: inventory count near shrink-wrap looked accurate, no discrepancy there."
+  },
+  {
+    "note_id": "B15",
+    "kind": "voice",
+    "timestamp": "2026-09-10T08:40:00",
+    "fixture_transcript": "Followed up at end of shift, the queue in front of shrink-wrap was still four totes deep, hadn't cleared by end of day."
+  },
+  {
+    "note_id": "B16",
+    "kind": "photo",
+    "timestamp": "2026-09-10T08:43:00",
+    "image_path": "photos/b16_endofshift_queue.png",
+    "fixture_caption": {
+      "scene_description": "End-of-shift photo showing totes still queued at the shrink-wrap infeed.",
+      "expected_checklist_item": "toc_identify_constraint"
+    }
+  }
+]

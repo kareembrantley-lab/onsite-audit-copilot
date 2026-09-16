@@ -1,0 +1,110 @@
+[
+  {
+    "note_id": "A01",
+    "kind": "voice",
+    "timestamp": "2026-09-08T08:03:00",
+    "fixture_transcript": "At workstation 3 there's a pile of old fixtures and obsolete tooling that hasn't been used in months, just sitting in the corner."
+  },
+  {
+    "note_id": "A02",
+    "kind": "voice",
+    "timestamp": "2026-09-08T08:07:00",
+    "fixture_transcript": "Workstation 4 has the same issue, a stack of unused brackets nobody has touched recently, kind of just junk building up."
+  },
+  {
+    "note_id": "A03",
+    "kind": "voice",
+    "timestamp": "2026-09-08T08:11:00",
+    "fixture_transcript": "Near the torque wrench station, tools are just tossed on the bench, no shadow board, so operators can't tell what's missing."
+  },
+  {
+    "note_id": "A04",
+    "kind": "photo",
+    "timestamp": "2026-09-08T08:14:00",
+    "image_path": "photos/a04_tool_bench.png",
+    "fixture_caption": {
+      "scene_description": "Tool bench for workstation 5 with several hand tools loose on the surface, no outlines or labeled spots visible.",
+      "expected_checklist_item": "5s_set_in_order"
+    }
+  },
+  {
+    "note_id": "A05",
+    "kind": "voice",
+    "timestamp": "2026-09-08T08:18:00",
+    "fixture_transcript": "Found a bin of small hardware with no designated spot near sub-assembly, hard to tell what's supposed to go there."
+  },
+  {
+    "note_id": "A06",
+    "kind": "voice",
+    "timestamp": "2026-09-08T08:23:00",
+    "fixture_transcript": "Floor near the conveyor at station 2 has some grease residue that hasn't been wiped up in a while."
+  },
+  {
+    "note_id": "A07",
+    "kind": "photo",
+    "timestamp": "2026-09-08T08:26:00",
+    "image_path": "photos/a07_shelf_dust.png",
+    "fixture_caption": {
+      "scene_description": "Dust buildup visible on the top of a shelving unit near the receiving-side racking.",
+      "expected_checklist_item": "5s_shine"
+    }
+  },
+  {
+    "note_id": "A08",
+    "kind": "voice",
+    "timestamp": "2026-09-08T08:31:00",
+    "fixture_transcript": "Workstation 6's layout is set up completely differently than workstation 5, even though they're doing the identical sub-assembly step, no posted standard to explain why."
+  },
+  {
+    "note_id": "A09",
+    "kind": "voice",
+    "timestamp": "2026-09-08T08:35:00",
+    "fixture_transcript": "Checked the 5S standard sheet posted at station 3, it's dated over a year ago, doesn't match what's actually set up now."
+  },
+  {
+    "note_id": "A10",
+    "kind": "voice",
+    "timestamp": "2026-09-08T08:40:00",
+    "fixture_transcript": "Asked the lead whether the daily 5S checklist gets filled out, they said honestly it's usually only completed right before a scheduled audit."
+  },
+  {
+    "note_id": "A11",
+    "kind": "voice",
+    "timestamp": "2026-09-08T08:44:00",
+    "fixture_transcript": "Self-audit log at station 4 has gaps, several days in a row with no entry."
+  },
+  {
+    "note_id": "A12",
+    "kind": "voice",
+    "timestamp": "2026-09-08T08:48:00",
+    "fixture_transcript": "Station 1 looks great honestly, tools all in their shadow board spots, clearly marked, nothing out of place."
+  },
+  {
+    "note_id": "A13",
+    "kind": "voice",
+    "timestamp": "2026-09-08T08:52:00",
+    "fixture_transcript": "Also noticed a second pile near receiving, mostly unused packaging materials nobody's claimed, more clutter along that wall."
+  },
+  {
+    "note_id": "A14",
+    "kind": "photo",
+    "timestamp": "2026-09-08T08:55:00",
+    "image_path": "photos/a14_fixture_cart.png",
+    "fixture_caption": {
+      "scene_description": "Obsolete fixture cart parked against the wall near final assembly, clearly not in current use.",
+      "expected_checklist_item": "5s_sort"
+    }
+  },
+  {
+    "note_id": "A15",
+    "kind": "voice",
+    "timestamp": "2026-09-08T08:59:00",
+    "fixture_transcript": "Station 5's shadow board actually looks solid, every wrench has an outline and they're all present."
+  },
+  {
+    "note_id": "A16",
+    "kind": "voice",
+    "timestamp": "2026-09-08T09:04:00",
+    "fixture_transcript": "Walked the whole line end to end, roughly consistent about 80 percent of stations, a few outliers like station 6 stand out."
+  }
+]
